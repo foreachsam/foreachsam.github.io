@@ -80,11 +80,19 @@ body {
 	$item['icon'] = 'file';
 	$list[] = $item;
 
+    $item = array();
+	$item['title'] = 'Materializecss Exploration';
+	$item['url'] = '/blog-framework-materializecss/';
+	$item['description'] = 'Materializecss Exploration';
+	$item['color'] = 'violet';
+	$item['icon'] = 'file';
+	$list[] = $item;
+
 	$item = array();
 	$item['title'] = 'Windwalker Framework Exploration';
 	$item['url'] = '/blog-framework-windwalker/';
 	$item['description'] = 'Windwalker Framework Exploration';
-	$item['color'] = 'violet';
+	$item['color'] = 'purple';
 	$item['icon'] = 'file';
 	$list[] = $item;
 
@@ -92,7 +100,7 @@ body {
 	$item['title'] = 'Github - foreachsam';
 	$item['url'] = 'https://github.com/foreachsam';
 	$item['description'] = 'Github - foreachsam';
-	$item['color'] = 'purple';
+	$item['color'] = 'pink';
 	$item['icon'] = 'github';
 	$list[] = $item;
 
