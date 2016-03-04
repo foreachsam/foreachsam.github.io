@@ -24,6 +24,14 @@ body {
 <?php
 	$list = array();
 
+    $item = array();
+	$item['title'] = 'MkDocs 使用筆記';
+	$item['url'] = '/book-util-mkdocs/';
+	$item['description'] = 'MkDocs 使用筆記';
+	$item['color'] = 'teal';
+	$item['icon'] = 'book';
+	$list[] = $item;
+
 	$item = array();
 	$item['title'] = 'Gitbook 使用筆記';
 	$item['url'] = '/book-util-gitbook/';
