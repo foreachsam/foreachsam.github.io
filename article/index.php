@@ -15,16 +15,16 @@
 
 <style>
 body {
-  background-color: #eee;
-  color: #707070;
-  font-family: sans-serief;
+	background-color: #eee;
+	color: #707070;
+	font-family: sans-serief;
 }
 </style>
 
 <?php
 	$list = array();
 
-    $item = array();
+	$item = array();
 	$item['title'] = 'MkDocs 使用筆記';
 	$item['url'] = '/book-util-mkdocs/';
 	$item['description'] = 'MkDocs 使用筆記';
@@ -88,7 +88,7 @@ body {
 	$item['icon'] = 'file';
 	$list[] = $item;
 
-    $item = array();
+	$item = array();
 	$item['title'] = 'Materializecss Exploration';
 	$item['url'] = '/blog-framework-materializecss/';
 	$item['description'] = 'Materializecss Exploration';

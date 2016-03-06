@@ -1,0 +1,10 @@
+https://foreachsam.github.io/book-util-mkdocs/
+https://foreachsam.github.io/book-util-gitbook/
+https://foreachsam.github.io/book-editor-atom/
+https://foreachsam.github.io/book-lang-vala/
+https://foreachsam.github.io/book-lang-python-pygi/
+https://foreachsam.github.io/book-lang-javascript-gjs/
+https://foreachsam.github.io/blog-lang-php/
+https://foreachsam.github.io/blog-framework-semantic-ui/
+https://foreachsam.github.io/blog-framework-materializecss/
+https://foreachsam.github.io/blog-framework-windwalker/
