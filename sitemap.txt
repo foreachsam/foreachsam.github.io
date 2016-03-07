@@ -1,3 +1,4 @@
+https://foreachsam.github.io/book-util-make/
 https://foreachsam.github.io/book-util-mkdocs/
 https://foreachsam.github.io/book-util-gitbook/
 https://foreachsam.github.io/book-editor-atom/

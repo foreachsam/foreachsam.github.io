@@ -24,6 +24,15 @@ body {
 <?php
 	$list = array();
 
+
+	$item = array();
+	$item['title'] = 'GNU Make 使用筆記';
+	$item['url'] = '/book-util-make/';
+	$item['description'] = 'GNU Make 使用筆記';
+	$item['color'] = 'brown';
+	$item['icon'] = 'book';
+	$list[] = $item;
+
 	$item = array();
 	$item['title'] = 'MkDocs 使用筆記';
 	$item['url'] = '/book-util-mkdocs/';
@@ -130,11 +139,12 @@ body {
 ?>
 			<div class="ui <?php echo $item['color']; ?> four column segment" style="text-align:left">
 
-					<a class="ui <?php echo $item['color']; ?> icon button" href="<?php echo $item['url']; ?>" target="_blank" title="<?php echo $item['title']; ?>">
-						<i class="ui <?php echo $item['icon']; ?> massive link icon"></i>
-					</a>
+				<a class="ui <?php echo $item['color']; ?> icon button" href="<?php echo $item['url']; ?>" target="_blank" title="<?php echo $item['title']; ?>">
+					<i class="ui <?php echo $item['icon']; ?> massive link icon"></i>
+				</a>
 
-					<?php echo $item['description']; ?>
+				<?php echo $item['description']; ?>
+
 			</div>
 <?php
  	}
