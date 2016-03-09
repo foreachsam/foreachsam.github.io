@@ -35,7 +35,7 @@ body {
 	$item['description'] = 'GNU Make 使用筆記';
 	$item['color'] = 'brown';
 	$item['icon'] = 'book';
-	$item['type'] = 'BOOK';
+	$item['type'] = 'Book';
 	$list[] = $item;
 
 	$item = array();
@@ -44,7 +44,7 @@ body {
 	$item['description'] = 'MkDocs 使用筆記';
 	$item['color'] = 'teal';
 	$item['icon'] = 'book';
-	$item['type'] = 'BOOK';
+	$item['type'] = 'Book';
 	$list[] = $item;
 
 	$item = array();
@@ -53,7 +53,7 @@ body {
 	$item['description'] = 'Gitbook 使用筆記';
 	$item['color'] = 'red';
 	$item['icon'] = 'book';
-	$item['type'] = 'BOOK';
+	$item['type'] = 'Book';
 	$list[] = $item;
 
 	$item = array();
@@ -62,7 +62,7 @@ body {
 	$item['description'] = 'Atom 使用筆記';
 	$item['color'] = 'orange';
 	$item['icon'] = 'book';
-	$item['type'] = 'BOOK';
+	$item['type'] = 'Book';
 	$list[] = $item;
 
 	$item = array();
@@ -71,7 +71,7 @@ body {
 	$item['description'] = 'Vala 學習筆記';
 	$item['color'] = 'yellow';
 	$item['icon'] = 'book';
-	$item['type'] = 'BOOK';
+	$item['type'] = 'Book';
 	$list[] = $item;
 
 	$item = array();
@@ -80,7 +80,7 @@ body {
 	$item['description'] = 'PyGI 學習筆記';
 	$item['color'] = 'olive';
 	$item['icon'] = 'book';
-	$item['type'] = 'BOOK';
+	$item['type'] = 'Book';
 	$list[] = $item;
 
 	$item = array();
@@ -89,7 +89,7 @@ body {
 	$item['description'] = 'Gjs 學習筆記';
 	$item['color'] = 'green';
 	$item['icon'] = 'book';
-	$item['type'] = 'BOOK';
+	$item['type'] = 'Book';
 	$list[] = $item;
 
 	$item = array();
