@@ -7,10 +7,10 @@
 
 <title>foreachsam.github.io</title>
 
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
 
 
 <style>
@@ -22,6 +22,10 @@ body {
 </style>
 
 <?php
+	//http://schema.org/docs/gs.html#microdata_how
+	//http://schema.org/docs/schemas.html
+	//http://schema.org/docs/full.html
+
 	$list = array();
 
 
@@ -31,6 +35,7 @@ body {
 	$item['description'] = 'GNU Make 使用筆記';
 	$item['color'] = 'brown';
 	$item['icon'] = 'book';
+	$item['type'] = 'BOOK';
 	$list[] = $item;
 
 	$item = array();
@@ -39,6 +44,7 @@ body {
 	$item['description'] = 'MkDocs 使用筆記';
 	$item['color'] = 'teal';
 	$item['icon'] = 'book';
+	$item['type'] = 'BOOK';
 	$list[] = $item;
 
 	$item = array();
@@ -47,6 +53,7 @@ body {
 	$item['description'] = 'Gitbook 使用筆記';
 	$item['color'] = 'red';
 	$item['icon'] = 'book';
+	$item['type'] = 'BOOK';
 	$list[] = $item;
 
 	$item = array();
@@ -55,6 +62,7 @@ body {
 	$item['description'] = 'Atom 使用筆記';
 	$item['color'] = 'orange';
 	$item['icon'] = 'book';
+	$item['type'] = 'BOOK';
 	$list[] = $item;
 
 	$item = array();
@@ -63,6 +71,7 @@ body {
 	$item['description'] = 'Vala 學習筆記';
 	$item['color'] = 'yellow';
 	$item['icon'] = 'book';
+	$item['type'] = 'BOOK';
 	$list[] = $item;
 
 	$item = array();
@@ -71,6 +80,7 @@ body {
 	$item['description'] = 'PyGI 學習筆記';
 	$item['color'] = 'olive';
 	$item['icon'] = 'book';
+	$item['type'] = 'BOOK';
 	$list[] = $item;
 
 	$item = array();
@@ -79,6 +89,7 @@ body {
 	$item['description'] = 'Gjs 學習筆記';
 	$item['color'] = 'green';
 	$item['icon'] = 'book';
+	$item['type'] = 'BOOK';
 	$list[] = $item;
 
 	$item = array();
@@ -87,6 +98,7 @@ body {
 	$item['description'] = 'PHP Exploration';
 	$item['color'] = 'teal';
 	$item['icon'] = 'file';
+	$item['type'] = 'Blog';
 	$list[] = $item;
 
 	$item = array();
@@ -95,6 +107,7 @@ body {
 	$item['description'] = 'Semantic UI Exploration';
 	$item['color'] = 'blue';
 	$item['icon'] = 'file';
+	$item['type'] = 'Blog';
 	$list[] = $item;
 
 	$item = array();
@@ -103,6 +116,7 @@ body {
 	$item['description'] = 'Materializecss Exploration';
 	$item['color'] = 'violet';
 	$item['icon'] = 'file';
+	$item['type'] = 'Blog';
 	$list[] = $item;
 
 	$item = array();
@@ -111,14 +125,16 @@ body {
 	$item['description'] = 'Windwalker Framework Exploration';
 	$item['color'] = 'purple';
 	$item['icon'] = 'file';
+	$item['type'] = 'Blog';
 	$list[] = $item;
 
 	$item = array();
 	$item['title'] = 'Github - foreachsam';
 	$item['url'] = 'https://github.com/foreachsam';
 	$item['description'] = 'Github - foreachsam';
-	$item['color'] = 'pink';
+	$item['color'] = 'black';
 	$item['icon'] = 'github';
+	$item['type'] = 'Code';
 	$list[] = $item;
 
 ?>
@@ -127,32 +143,65 @@ body {
 <body>
 
 
+<main style="margin-top:50px;">
 
-<div class="ui one column stackable page grid center aligned" style="margin-top: 10px;">
-	<div class="sixteen column wide">
-		<div style="text-align:center">
+	<div class="ui stackable grid container">
 
 <?php
 
 	foreach ($list as $key => $item) {
 
 ?>
-			<div class="ui <?php echo $item['color']; ?> four column segment" style="text-align:left">
+		<div class="three wide column">
 
-				<a class="ui <?php echo $item['color']; ?> icon button" href="<?php echo $item['url']; ?>" target="_blank" title="<?php echo $item['title']; ?>">
-					<i class="ui <?php echo $item['icon']; ?> massive link icon"></i>
-				</a>
+		</div>
 
-				<?php echo $item['description']; ?>
+		<div class="ten wide column">
+			<div class="ui <?php echo $item['color']; ?> segment" itemscope itemtype="http://schema.org/<?php echo $item['type']; ?>">
+
+				<div class="ui two column stackable grid">
+
+					<div class="column">
+						<a class="ui <?php echo $item['color']; ?> icon button" href="<?php echo $item['url']; ?>" target="_blank" title="<?php echo $item['description']; ?>" itemprop="url">
+							<i class="ui <?php echo $item['icon']; ?> massive link icon" itemprop="image"></i>
+						</a>
+					</div>
+
+					<div class="right aligned column">
+						<h2 itemprop="name"><?php echo $item['title']; ?></h2>
+					</div>
+
+				</div>
 
 			</div>
+		</div>
+
+		<div class="three wide column">
+
+		</div>
+
 <?php
- 	}
+ 	} // End foreach
 ?>
+
+	</div>
+
+</main>
+
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-56999876-1', 'auto');
+ga('send', 'pageview');
+</script>
 
 
 <?php
 /*
+
 //http://cdnjs.com/libraries/semantic-ui
 //http://semantic-ui.com/elements/segment.html#colored
 <div class="ui red segment">Red</div>
@@ -170,22 +219,6 @@ body {
 <div class="ui black segment">Black</div>
 */
 ?>
-
-
-
-		</div>
-	</div>
-</div>
-
-
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-56999876-1', 'auto');
-ga('send', 'pageview');
-</script>
 
 </body>
 </html>
