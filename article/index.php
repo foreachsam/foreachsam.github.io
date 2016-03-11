@@ -30,6 +30,24 @@ body {
 
 
 	$item = array();
+	$item['title'] = 'Elixir 學習筆記';
+	$item['url'] = '/book-lang-elixir/';
+	$item['description'] = 'Elixir 學習筆記';
+	$item['color'] = 'purple';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
+	$item['title'] = 'Erlang 使用筆記';
+	$item['url'] = '/book-lang-erlang/';
+	$item['description'] = 'Erlang 使用筆記';
+	$item['color'] = 'pink';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'GNU Make 使用筆記';
 	$item['url'] = '/book-util-make/';
 	$item['description'] = 'GNU Make 使用筆記';
