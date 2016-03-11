@@ -39,9 +39,9 @@ body {
 	$list[] = $item;
 
 	$item = array();
-	$item['title'] = 'Erlang 使用筆記';
+	$item['title'] = 'Erlang 學習筆記';
 	$item['url'] = '/book-lang-erlang/';
-	$item['description'] = 'Erlang 使用筆記';
+	$item['description'] = 'Erlang 學習筆記';
 	$item['color'] = 'pink';
 	$item['icon'] = 'book';
 	$item['type'] = 'Book';
