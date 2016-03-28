@@ -57,6 +57,15 @@ body {
 	$list[] = $item;
 
 	$item = array();
+	$item['title'] = 'GNU Bash 學習筆記';
+	$item['url'] = '/book-lang-bash/';
+	$item['description'] = 'GNU Bash 學習筆記';
+	$item['color'] = 'pink';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'MkDocs 使用筆記';
 	$item['url'] = '/book-util-mkdocs/';
 	$item['description'] = 'MkDocs 使用筆記';

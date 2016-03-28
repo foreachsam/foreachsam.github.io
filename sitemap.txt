@@ -1,6 +1,7 @@
 https://foreachsam.github.io/book-lang-elixir/book/
 https://foreachsam.github.io/book-lang-erlang/book/
 https://foreachsam.github.io/book-util-make/book/
+https://foreachsam.github.io/book-lang-bash/book/
 https://foreachsam.github.io/book-util-mkdocs/book/
 https://foreachsam.github.io/book-util-gitbook/book/
 https://foreachsam.github.io/book-editor-atom/book/
