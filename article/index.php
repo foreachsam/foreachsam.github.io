@@ -30,6 +30,15 @@ body {
 
 
 	$item = array();
+	$item['title'] = 'Gsettings 使用筆記';
+	$item['url'] = '/book-util-gsettings/';
+	$item['description'] = 'Gsettings 使用筆記';
+	$item['color'] = 'green';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'Elixir 學習筆記';
 	$item['url'] = '/book-lang-elixir/';
 	$item['description'] = 'Elixir 學習筆記';
