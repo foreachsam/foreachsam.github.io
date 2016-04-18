@@ -28,6 +28,14 @@ body {
 
 	$list = array();
 
+	$item = array();
+	$item['title'] = 'DConf 使用筆記';
+	$item['url'] = '/book-util-dconf/';
+	$item['description'] = 'DConf 使用筆記';
+	$item['color'] = 'yellow';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
 
 	$item = array();
 	$item['title'] = 'Gsettings 使用筆記';
