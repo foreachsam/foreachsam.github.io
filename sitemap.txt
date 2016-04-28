@@ -1,3 +1,4 @@
+https://foreachsam.github.io/book-util-snap/book/
 https://foreachsam.github.io/book-util-dconf/book/
 https://foreachsam.github.io/book-util-gsettings/book/
 https://foreachsam.github.io/book-lang-elixir/book/

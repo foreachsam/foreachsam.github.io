@@ -29,6 +29,15 @@ body {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'Ubuntu snap 使用筆記';
+	$item['url'] = '/book-util-snap/';
+	$item['description'] = 'Ubuntu snap 使用筆記';
+	$item['color'] = 'teal';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'DConf 使用筆記';
 	$item['url'] = '/book-util-dconf/';
 	$item['description'] = 'DConf 使用筆記';
