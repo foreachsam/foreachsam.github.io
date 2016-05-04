@@ -29,6 +29,24 @@ body {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'GNU Wget 使用筆記';
+	$item['url'] = '/book-util-wget/';
+	$item['description'] = 'GNU Wget 使用筆記';
+	$item['color'] = 'brown';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
+	$item['title'] = 'apt 使用筆記';
+	$item['url'] = '/book-util-apt/';
+	$item['description'] = 'apt 使用筆記';
+	$item['color'] = 'red';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'Ubuntu snap 使用筆記';
 	$item['url'] = '/book-util-snap/';
 	$item['description'] = 'Ubuntu snap 使用筆記';

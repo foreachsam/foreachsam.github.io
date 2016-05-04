@@ -1,3 +1,5 @@
+https://foreachsam.github.io/book-util-wget/book/
+https://foreachsam.github.io/book-util-apt/book/
 https://foreachsam.github.io/book-util-snap/book/
 https://foreachsam.github.io/book-util-dconf/book/
 https://foreachsam.github.io/book-util-gsettings/book/
