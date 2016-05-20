@@ -29,6 +29,15 @@ body {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'D-Bus 使用筆記';
+	$item['url'] = '/book-util-dbus/';
+	$item['description'] = 'D-Bus 使用筆記';
+	$item['color'] = 'blue';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'GNU Wget 使用筆記';
 	$item['url'] = '/book-util-wget/';
 	$item['description'] = 'GNU Wget 使用筆記';
