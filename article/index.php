@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-<title>foreachsam.github.io</title>
+<title>foreachsam</title>
 
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
 
@@ -209,9 +209,9 @@ body {
 	$list[] = $item;
 
 	$item = array();
-	$item['title'] = 'Github - foreachsam';
+	$item['title'] = 'GitHub - foreachsam';
 	$item['url'] = 'https://github.com/foreachsam';
-	$item['description'] = 'Github - foreachsam';
+	$item['description'] = 'GitHub - foreachsam';
 	$item['color'] = 'black';
 	$item['icon'] = 'github';
 	$item['type'] = 'Code';
