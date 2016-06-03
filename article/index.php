@@ -242,16 +242,17 @@ main {
 
 	<div class="ui stackable grid container">
 
-<?php
-
-	foreach ($list as $key => $item) {
-
-?>
 		<div class="three wide column">
 
 		</div>
 
 		<div class="ten wide column">
+
+<?php
+
+	foreach ($list as $key => $item) {
+
+?>
 			<div class="ui <?php echo $item['color']; ?> segment" itemscope="itemscope" itemtype="http://schema.org/<?php echo $item['type']; ?>">
 
 				<div class="ui two column stackable grid">
@@ -269,15 +270,13 @@ main {
 				</div>
 
 			</div>
-		</div>
-
-		<div class="three wide column">
-
-		</div>
 
 <?php
  	} // End foreach
 ?>
+
+		</div>
+
 
 	</div>
 
