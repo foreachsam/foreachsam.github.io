@@ -29,6 +29,16 @@ body {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'Theme Jekyll Theme';
+	$item['url'] = '/theme-jekyll-semi/';
+	$item['description'] = 'Theme Jekyll Theme';
+	$item['color'] = 'red';
+	$item['icon'] = 'theme';
+	$item['type'] = 'CreativeWork';
+	$list[] = $item;
+
+
+	$item = array();
 	$item['title'] = 'D-Bus 使用筆記';
 	$item['url'] = '/book-util-dbus/';
 	$item['description'] = 'D-Bus 使用筆記';
@@ -237,7 +247,7 @@ body {
 		</div>
 
 		<div class="ten wide column">
-			<div class="ui <?php echo $item['color']; ?> segment" itemscope itemtype="http://schema.org/<?php echo $item['type']; ?>">
+			<div class="ui <?php echo $item['color']; ?> segment" itemscope="itemscope" itemtype="http://schema.org/<?php echo $item['type']; ?>">
 
 				<div class="ui two column stackable grid">
 

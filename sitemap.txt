@@ -1,3 +1,4 @@
+https://foreachsam.github.io/theme-jekyll-semi/book/
 https://foreachsam.github.io/book-util-dbus/book/
 https://foreachsam.github.io/book-util-wget/book/
 https://foreachsam.github.io/book-util-apt/book/
