@@ -19,6 +19,11 @@ body {
 	color: #707070;
 	font-family: sans-serief;
 }
+main {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	min-height: 100vh;
+}
 </style>
 
 <?php
@@ -233,7 +238,7 @@ body {
 <body>
 
 
-<main style="margin-top:50px;">
+<main>
 
 	<div class="ui stackable grid container">
 
