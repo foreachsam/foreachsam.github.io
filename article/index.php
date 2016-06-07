@@ -37,7 +37,7 @@ main {
 	$item['title'] = 'Jekyll Theme Kula';
 	$item['url'] = '/theme-jekyll-kula/';
 	$item['description'] = 'Jekyll Theme Kula';
-	$item['color'] = 'blue';
+	$item['color'] = 'teal';
 	$item['icon'] = 'theme';
 	$item['type'] = 'CreativeWork';
 	$list[] = $item;
