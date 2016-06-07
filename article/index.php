@@ -34,9 +34,18 @@ main {
 	$list = array();
 
 	$item = array();
-	$item['title'] = 'Theme Jekyll Theme';
+	$item['title'] = 'Jekyll Theme Kula';
+	$item['url'] = '/theme-jekyll-kula/';
+	$item['description'] = 'Jekyll Theme Kula';
+	$item['color'] = 'blue';
+	$item['icon'] = 'theme';
+	$item['type'] = 'CreativeWork';
+	$list[] = $item;
+
+	$item = array();
+	$item['title'] = 'Jekyll Theme Semi';
 	$item['url'] = '/theme-jekyll-semi/';
-	$item['description'] = 'Theme Jekyll Theme';
+	$item['description'] = 'Jekyll Theme Semi';
 	$item['color'] = 'red';
 	$item['icon'] = 'theme';
 	$item['type'] = 'CreativeWork';
