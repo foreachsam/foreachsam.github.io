@@ -34,6 +34,16 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'Fcitx 使用筆記';
+	$item['url'] = '/book-util-fcitx/';
+	$item['description'] = 'Fcitx 使用筆記';
+	$item['color'] = 'yellow';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+
+	$item = array();
 	$item['title'] = 'im-config 使用筆記';
 	$item['url'] = '/book-util-im-config/';
 	$item['description'] = 'im-config 使用筆記';
