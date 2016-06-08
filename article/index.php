@@ -34,6 +34,15 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'im-config 使用筆記';
+	$item['url'] = '/book-util-im-config/';
+	$item['description'] = 'im-config 使用筆記';
+	$item['color'] = 'pink';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'Jekyll Theme Kula';
 	$item['url'] = '/theme-jekyll-kula/';
 	$item['description'] = 'Jekyll Theme Kula';
@@ -50,7 +59,6 @@ main {
 	$item['icon'] = 'theme';
 	$item['type'] = 'CreativeWork';
 	$list[] = $item;
-
 
 	$item = array();
 	$item['title'] = 'D-Bus 使用筆記';

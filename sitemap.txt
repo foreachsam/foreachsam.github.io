@@ -1,3 +1,4 @@
+https://foreachsam.github.io/book-util-im-config/book/
 https://foreachsam.github.io/theme-jekyll-kula/
 https://foreachsam.github.io/theme-jekyll-semi/
 https://foreachsam.github.io/book-util-dbus/book/
