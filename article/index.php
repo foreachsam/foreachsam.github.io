@@ -179,9 +179,9 @@ main {
 	$list[] = $item;
 
 	$item = array();
-	$item['title'] = 'Atom 使用筆記';
+	$item['title'] = 'Atom Editor 使用筆記';
 	$item['url'] = '/book-editor-atom/';
-	$item['description'] = 'Atom 使用筆記';
+	$item['description'] = 'Atom Editor 使用筆記';
 	$item['color'] = 'orange';
 	$item['icon'] = 'book';
 	$item['type'] = 'Book';
