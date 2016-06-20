@@ -4,6 +4,7 @@ https://foreachsam.github.io/theme-jekyll-kula/
 https://foreachsam.github.io/theme-jekyll-semi/
 https://foreachsam.github.io/book-util-dbus/book/
 https://foreachsam.github.io/book-util-wget/book/
+https://foreachsam.github.io/book-util-dpkg/book/
 https://foreachsam.github.io/book-util-apt/book/
 https://foreachsam.github.io/book-util-snap/book/
 https://foreachsam.github.io/book-util-dconf/book/

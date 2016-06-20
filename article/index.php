@@ -89,6 +89,15 @@ main {
 	$list[] = $item;
 
 	$item = array();
+	$item['title'] = 'dpkg 使用筆記';
+	$item['url'] = '/book-util-dpkg/';
+	$item['description'] = 'dpkg 使用筆記';
+	$item['color'] = 'pink';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'apt 使用筆記';
 	$item['url'] = '/book-util-apt/';
 	$item['description'] = 'apt 使用筆記';
