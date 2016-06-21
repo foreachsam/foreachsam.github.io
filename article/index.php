@@ -34,6 +34,15 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'man 使用筆記';
+	$item['url'] = '/book-util-man/';
+	$item['description'] = 'man 使用筆記';
+	$item['color'] = 'blue';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'manpages 索引';
 	$item['url'] = '/book-doc-manpages/';
 	$item['description'] = 'manpages 索引';
