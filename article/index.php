@@ -34,6 +34,15 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'manpages 索引';
+	$item['url'] = '/book-doc-manpages/';
+	$item['description'] = 'manpages 索引';
+	$item['color'] = 'green';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'Fcitx 使用筆記';
 	$item['url'] = '/book-util-fcitx/';
 	$item['description'] = 'Fcitx 使用筆記';
@@ -41,7 +50,6 @@ main {
 	$item['icon'] = 'book';
 	$item['type'] = 'Book';
 	$list[] = $item;
-
 
 	$item = array();
 	$item['title'] = 'im-config 使用筆記';
