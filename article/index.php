@@ -34,6 +34,15 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'kmod 使用筆記';
+	$item['url'] = '/book-util-kmod/';
+	$item['description'] = 'kmod 使用筆記';
+	$item['color'] = 'red';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'man 使用筆記';
 	$item['url'] = '/book-util-man/';
 	$item['description'] = 'man 使用筆記';

@@ -1,3 +1,4 @@
+https://foreachsam.github.io/book-util-kmod/book/
 https://foreachsam.github.io/book-util-man/book/
 https://foreachsam.github.io/book-doc-manpages/book/
 https://foreachsam.github.io/book-util-fcitx/book/
