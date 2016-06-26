@@ -34,6 +34,15 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'debianutils 使用筆記';
+	$item['url'] = '/book-util-debianutils/';
+	$item['description'] = 'debianutils 使用筆記';
+	$item['color'] = 'pink';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'coreutils 使用筆記';
 	$item['url'] = '/book-util-coreutils/';
 	$item['description'] = 'coreutils 使用筆記';
