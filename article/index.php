@@ -34,8 +34,17 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'binutils 使用筆記';
+	$item['url'] = '/book-util-binutils/';
+	$item['description'] = 'binutils 使用筆記';
+	$item['color'] = 'blue';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'util-linux 使用筆記';
-	$item['url'] = '/book-util-util-linux/';
+	$item['url'] = '/book-util-kmod/';
 	$item['description'] = 'util-linux 使用筆記';
 	$item['color'] = 'pink';
 	$item['icon'] = 'book';
