@@ -1,3 +1,4 @@
+https://foreachsam.github.io/book-util-coreutils/book/
 https://foreachsam.github.io/book-util-binutils/book/
 https://foreachsam.github.io/book-util-util-linux/book/
 https://foreachsam.github.io/book-util-kmod/book/
