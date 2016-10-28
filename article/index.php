@@ -34,6 +34,33 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'GTK+ 學習筆記';
+	$item['url'] = '/book-lang-c-gtk-3/';
+	$item['description'] = 'GTK+ 學習筆記';
+	$item['color'] = 'blue';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
+	$item['title'] = 'Luvit 學習筆記';
+	$item['url'] = '/book-lang-lua-luvit/';
+	$item['description'] = 'Luvit 學習筆記';
+	$item['color'] = 'teal';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
+	$item['title'] = 'Lua 學習筆記';
+	$item['url'] = '/book-lang-lua/';
+	$item['description'] = 'Lua 學習筆記';
+	$item['color'] = 'blue';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'ooc 學習筆記';
 	$item['url'] = '/book-lang-ooc/';
 	$item['description'] = 'ooc 學習筆記';

@@ -1,3 +1,6 @@
+https://foreachsam.github.io/book-lang-c-gtk-3/book/
+https://foreachsam.github.io/book-lang-lua-luvit/book/
+https://foreachsam.github.io/book-lang-lua/book/
 https://foreachsam.github.io/book-lang-ooc/book/
 https://foreachsam.github.io/book-util-debianutils/book/
 https://foreachsam.github.io/book-util-coreutils/book/
