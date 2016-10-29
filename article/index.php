@@ -98,7 +98,7 @@ main {
 
 	$item = array();
 	$item['title'] = 'util-linux 使用筆記';
-	$item['url'] = '/book-util-kmod/';
+	$item['url'] = '/book-util-util-linux/';
 	$item['description'] = 'util-linux 使用筆記';
 	$item['color'] = 'pink';
 	$item['icon'] = 'book';
