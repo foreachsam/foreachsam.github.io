@@ -34,6 +34,15 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'Vue 學習筆記';
+	$item['url'] = '/book-lang-javascript-vue/';
+	$item['description'] = 'Vue 學習筆記';
+	$item['color'] = 'teal';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'GTK+ 學習筆記';
 	$item['url'] = '/book-lang-c-gtk-3/';
 	$item['description'] = 'GTK+ 學習筆記';
