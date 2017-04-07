@@ -34,6 +34,15 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'D 學習筆記';
+	$item['url'] = '/book-lang-d/';
+	$item['description'] = 'D 學習筆記';
+	$item['color'] = 'red';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'Python 學習筆記';
 	$item['url'] = '/book-lang-python/';
 	$item['description'] = 'Python 學習筆記';
