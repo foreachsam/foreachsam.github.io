@@ -1,6 +1,6 @@
-https://foreachsam.github.io/book-lang-d/book/
-https://foreachsam.github.io/book-lang-python/book/
-https://foreachsam.github.io/book-lang-javascript-vue/book/
+https://foreachsam.github.io/book-lang-d/
+https://foreachsam.github.io/book-lang-python/
+https://foreachsam.github.io/book-lang-javascript-vue/
 https://foreachsam.github.io/book-lang-c-gtk-3/book/
 https://foreachsam.github.io/book-lang-lua-luvit/book/
 https://foreachsam.github.io/book-lang-lua/book/
