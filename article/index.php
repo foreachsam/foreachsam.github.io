@@ -34,6 +34,15 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'Build System 使用筆記';
+	$item['url'] = '/book-build-system/';
+	$item['description'] = 'Build System 使用筆記';
+	$item['color'] = 'blue';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'D 學習筆記';
 	$item['url'] = '/book-lang-d/';
 	$item['description'] = 'D 學習筆記';

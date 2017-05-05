@@ -1,198 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>https://foreachsam.github.io/book-build-system/</loc>
+		<lastmod>2017-05-05</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
 		<loc>https://foreachsam.github.io/book-lang-d/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-lang-python/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-lang-javascript-vue/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-lang-c-gtk-3/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-lang-lua-luvit/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-lang-lua/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-lang-ooc/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-debianutils/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-coreutils/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-binutils/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-util-linux/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-kmod/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-man/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-doc-manpages/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-fcitx/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-im-config/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/theme-jekyll-kula/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/theme-jekyll-semi/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-dbus/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-wget/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-dpkg/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-apt/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-snap/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-dconf/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-gsettings/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-lang-elixir/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-lang-erlang/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-make/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-lang-bash/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-mkdocs/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-util-gitbook/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-editor-atom/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-lang-vala/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-lang-python-pygi/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/book-lang-javascript-gjs/book/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/blog-lang-php/article/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/blog-framework-semantic-ui/article/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/blog-framework-materializecss/article/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>https://foreachsam.github.io/blog-framework-windwalker/article/</loc>
-		<lastmod>2017-05-04</lastmod>
+		<lastmod>2017-05-05</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 </urlset>
