@@ -1,3 +1,4 @@
+https://foreachsam.github.io/note-tool-docsify/
 https://foreachsam.github.io/book-framework-gstreamer/
 https://foreachsam.github.io/book-build-system/
 https://foreachsam.github.io/book-lang-d/

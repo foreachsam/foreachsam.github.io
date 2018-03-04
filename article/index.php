@@ -34,6 +34,15 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'docsify 使用筆記';
+	$item['url'] = '/note-tool-docsify/';
+	$item['description'] = 'docsify 使用筆記';
+	$item['color'] = 'green';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'GStreamer 學習筆記';
 	$item['url'] = '/book-framework-gstreamer/';
 	$item['description'] = 'GStreamer 學習筆記';
