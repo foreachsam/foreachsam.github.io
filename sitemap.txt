@@ -1,3 +1,4 @@
+https://foreachsam.github.io/note-tool-hotdoc/
 https://foreachsam.github.io/book-lang-cpp-qt/
 https://foreachsam.github.io/note-tool-docsify/
 https://foreachsam.github.io/book-framework-gstreamer/

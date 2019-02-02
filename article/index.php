@@ -34,6 +34,15 @@ main {
 	$list = array();
 
 	$item = array();
+	$item['title'] = 'HotDoc 學習筆記';
+	$item['url'] = '/note-tool-hotdoc/';
+	$item['description'] = 'HotDoc 學習筆記';
+	$item['color'] = 'black';
+	$item['icon'] = 'book';
+	$item['type'] = 'Book';
+	$list[] = $item;
+
+	$item = array();
 	$item['title'] = 'Qt 學習筆記';
 	$item['url'] = '/book-lang-cpp-qt/';
 	$item['description'] = 'Qt 學習筆記';
